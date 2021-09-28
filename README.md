@@ -1,5 +1,5 @@
 # Nvidia Shield
-For Nvidia Shield (2017 darcy) running on version **_8.2.3_** developer image.
+For Nvidia Shield (2017 darcy) running Android **_8.2.3_** developer image.
 
 If you are currently in bootloop, download the [developer image](https://developer.nvidia.com/gameworksdownload)
 
@@ -15,7 +15,7 @@ fastboot flash vendor vendor.img
 fastboot reboot
 ```
 
-**Make sure you are on android version _8.2.3_**
+**Make sure you are on Android version _8.2.3_**
 
 Download [Magisk 23.0 apk](https://github.com/topjohnwu/Magisk/releases/download/v23.0/Magisk-v23.0.apk) from official repository:
 
