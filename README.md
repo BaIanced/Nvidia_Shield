@@ -16,7 +16,7 @@ fastboot flash vendor vendor.img
 fastboot reboot
 ```
 
-`**!!!! Make sure you are on android version 8.2.3 !!!!**`
+**Make sure you are on android version _8.2.3_**
 
 Download Magisk 23.0 apk from official repository:
 https://github.com/topjohnwu/Magisk/releases/download/v23.0/Magisk-v23.0.apk
