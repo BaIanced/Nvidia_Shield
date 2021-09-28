@@ -16,7 +16,7 @@ fastboot flash vendor vendor.img
 fastboot reboot
 ```
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15` !!!! Make sure you are on android version 8.2.3 !!!!
+`!!!! Make sure you are on android version 8.2.3 !!!!`
 
 Download Magisk 23.0 apk from official repository:
 https://github.com/topjohnwu/Magisk/releases/download/v23.0/Magisk-v23.0.apk
@@ -29,3 +29,10 @@ fastboot flash boot boot_magisk23.0.img
 fastboot reboot
 ```
 You should now be able to use Magisk.
+
+To restore:
+```
+adb reboot bootloader
+fastboot flash boot boot.img
+fastboot reboot
+```
