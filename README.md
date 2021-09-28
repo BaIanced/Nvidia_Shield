@@ -1,10 +1,9 @@
 # Nvidia Shield
-For Nvidia Shield (2017 darcy) running on version 8.2.3 developer image.
+For Nvidia Shield (2017 darcy) running on version **_8.2.3_** developer image.
 
-If you are currently in bootloop, download the developer image from here:
-https://developer.nvidia.com/gameworksdownload
+If you are currently in bootloop, download the [developer image](https://developer.nvidia.com/gameworksdownload)
 
-Extract/flash using these instructions: https://developer.download.nvidia.com/assets/gameworks/downloads/regular/howtoflash/HowTO-Flash-Recovery-Image.txt
+Extract/flash using official [instructions](https://developer.download.nvidia.com/assets/gameworks/downloads/regular/howtoflash/HowTO-Flash-Recovery-Image.txt)
 
 Basically...
 ```
@@ -18,8 +17,8 @@ fastboot reboot
 
 **Make sure you are on android version _8.2.3_**
 
-Download Magisk 23.0 apk from official repository:
-https://github.com/topjohnwu/Magisk/releases/download/v23.0/Magisk-v23.0.apk
+Download [Magisk 23.0 apk](https://github.com/topjohnwu/Magisk/releases/download/v23.0/Magisk-v23.0.apk) from official repository:
+
 
 On computer...
 ```
@@ -30,7 +29,7 @@ fastboot reboot
 ```
 You should now be able to use Magisk.
 
-To restore:
+_To restore_
 ```
 adb reboot bootloader
 fastboot flash boot boot.img
