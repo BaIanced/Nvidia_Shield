@@ -29,7 +29,7 @@ fastboot reboot
 ```
 You should now be able to use Magisk.
 
-_To restore_
+_To restore/unroot_
 ```
 adb reboot bootloader
 fastboot flash boot boot.img
